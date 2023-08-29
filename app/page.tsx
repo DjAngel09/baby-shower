@@ -1,10 +1,11 @@
 import styles from './page.module.css'
-import { Intro } from '@/components/Intro'
+import { ListTemplate } from '@/templates/ListTemplate';
 
 export default function Home() {
+
   return (
     <main className='container pt-5' style={{width: '100%', padding: '40px 24px'}}>
-      <Intro/>
+      <ListTemplate></ListTemplate>
     </main>
   )
 }
