@@ -58,7 +58,7 @@ export const Intro = () => {
       <br /><br />
       <p className='normal-text' >{`invitacion para: ${guest.adults} Adulto(s) ${guest.childrens > 0 ? 'y ' + guest.childrens + ' niño(s)' : ''}`}</p>
 
-      <p >Mesa de Regalos (Opcional): <a href="https://www.amazon.com.mx/baby-reg/2ZL2PYATUH2VU?ref=br_search_v2_desktop_res_2">Ver Mesa</a></p>
+      <p >Mesa de Regalos (Opcional): <a href="https://www.amazon.com.mx/baby-reg/belen-hernandez-noviembre-2023-atlacomulco/319BB835WNAO0?ref_=cm_sw_r_cp_ud_dp_BHHRQPWECVJQZQTZRX9B">Ver Mesa</a></p>
     </div>
   )
 }
