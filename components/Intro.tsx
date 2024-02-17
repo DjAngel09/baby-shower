@@ -33,8 +33,8 @@ export const Intro = () => {
 
   return (
     <div className='text-center m-auto' style={{ maxWidth: '600px' }} >
-      <img style={{ width: '100%' }} src="https://firebasestorage.googleapis.com/v0/b/babyshower-7ef8b.appspot.com/o/vecteezy_baby-shower_1201306.png?alt=media&token=e0dec3fe-aaa6-494b-b85b-3464a36b75c6" alt="" />
-      <img className='m-auto' style={{ width: '100%' }} src="https://firebasestorage.googleapis.com/v0/b/babyshower-7ef8b.appspot.com/o/lindo-bebe-elefante-globos_159446-324-removebg-preview.png?alt=media&token=78201db3-2373-4f0a-878f-b8737c384d3a" alt="" />
+      <img style={{ width: '100%' }} src="https://firebasestorage.googleapis.com/v0/b/babyshower-7ef8b.appspot.com/o/3e8cdc2fd0c14af97ca24499d5dce5f7.png?alt=media&token=18058541-77cb-4b7a-86e3-f69d1782e0a9" alt="" />
+      <img className='m-auto' style={{ width: '100%' }} src="https://firebasestorage.googleapis.com/v0/b/babyshower-7ef8b.appspot.com/o/PngItem_102946.png?alt=media&token=65a14c8c-a7f4-4ad5-ae33-489f968bc912" alt="" />
       <h2
         className='text-center'
         style={
@@ -43,22 +43,21 @@ export const Intro = () => {
           }
         }
       >
-        {`Hola ${guest.name}, acompáñanos a celebrar la llegada de nuestra bebé`}
+        {`Hola ${guest.name}, acompáñanos a celebrar mi bautizo.`}
       </h2>
-      <p className='name' >Regina</p>
+      <p className='name' >Scarlett</p>
       <br />
       <h2 style={{ fontSize: '24px' }} >
-        Septiembre 30 -
+        Marzo 23 -
         <img style={{ width: '40px' }} src="https://firebasestorage.googleapis.com/v0/b/babyshower-7ef8b.appspot.com/o/0d0fc-elefante-bebe-para-baby-shower.png?alt=media&token=477b9a7b-5519-49bf-8c9f-cb2091d4176b" alt="" />
-        - 1:00pm
+        - 3:00pm
       </h2>
 
-      <h3 style={{ fontSize: '24px' }} >Buenaventura García Manzana 035, Ixtlahuaca</h3>
-      <a target='_blank' href="https://goo.gl/maps/5nTb4nQXuCmERfZX8">Ver Mapa</a>
+      <h3 style={{ fontSize: '24px' }} >Río Seco 9, Col Río Lerma Tic Ti, 50456 Col. Río Lerma, Atlacomulco</h3>
+      <a target='_blank' href="https://maps.app.goo.gl/79s62ZwhYMxCW6Nr6">Ver Mapa</a>
       <br /><br />
       <p className='normal-text' >{`invitacion para: ${guest.adults} Adulto(s) ${guest.childrens > 0 ? 'y ' + guest.childrens + ' niño(s)' : ''}`}</p>
 
-      <p >Mesa de Regalos (Opcional): <a href="https://www.amazon.com.mx/baby-reg/belen-hernandez-noviembre-2023-atlacomulco/319BB835WNAO0?ref_=cm_sw_r_cp_ud_dp_BHHRQPWECVJQZQTZRX9B">Ver Mesa</a></p>
     </div>
   )
 }
