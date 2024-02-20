@@ -32,32 +32,57 @@ export const Intro = () => {
 
 
   return (
-    <div className='text-center m-auto' style={{ maxWidth: '600px' }} >
-      <img style={{ width: '100%' }} src="https://firebasestorage.googleapis.com/v0/b/babyshower-7ef8b.appspot.com/o/3e8cdc2fd0c14af97ca24499d5dce5f7.png?alt=media&token=18058541-77cb-4b7a-86e3-f69d1782e0a9" alt="" />
-      <img className='m-auto' style={{ width: '100%' }} src="https://firebasestorage.googleapis.com/v0/b/babyshower-7ef8b.appspot.com/o/PngItem_102946.png?alt=media&token=65a14c8c-a7f4-4ad5-ae33-489f968bc912" alt="" />
-      <h2
-        className='text-center'
-        style={
-          {
-            fontSize: '36px'
+    <div className='text-center m-auto' style={{ maxWidth: '600px', padding: '54px 24px' }} >
+      <div style={{ backgroundColor: '#fff', borderRadius: '320px 320px 0 0', paddingTop: '74px', paddingBottom: '24px' }} >
+        <p style={{ color: '#99C2CB', fontSize: '20px' }} >¡Te invitamos a mi bautizo!</p>
+        <p
+          className='text-center'
+          style={
+            {
+              fontSize: '20px'
+            }
           }
-        }
-      >
-        {`Hola ${guest.name}, acompáñanos a celebrar mi bautizo.`}
-      </h2>
-      <p className='name' >Scarlett</p>
-      <br />
-      <h2 style={{ fontSize: '24px' }} >
-        Marzo 23 -
-        <img style={{ width: '40px' }} src="https://firebasestorage.googleapis.com/v0/b/babyshower-7ef8b.appspot.com/o/0d0fc-elefante-bebe-para-baby-shower.png?alt=media&token=477b9a7b-5519-49bf-8c9f-cb2091d4176b" alt="" />
-        - 3:00pm
-      </h2>
+        >
+          {`Hola ${guest.name}, acompáñanos a celebrar`}
+        </p>
+        <h2 className='mi' style={{ textAlign: 'center', fontSize: '36px' }} >Mi</h2>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+          <p className='pop' style={{ margin: '0 12px', fontSize: '52px', color:'#FFB14B', fontWeight: 'bold' }} >BAUTIZ</p>
+          <img src="https://firebasestorage.googleapis.com/v0/b/babyshower-7ef8b.appspot.com/o/Captura%20de%20pantalla%202024-02-20%20164457.png?alt=media&token=4515be63-e7a1-43cf-966f-1e138b5d8901" alt="" />
+        </div>
+        <p className='pop' style={{margin: '0 12px', fontSize: '52px', color:'#FDA025', fontWeight: 'bold'}} >SKARLET</p>
 
-      <h3 style={{ fontSize: '24px' }} >Río Seco 9, Col Río Lerma Tic Ti, 50456 Col. Río Lerma, Atlacomulco</h3>
-      <a target='_blank' href="https://maps.app.goo.gl/79s62ZwhYMxCW6Nr6">Ver Mapa</a>
-      <br /><br />
-      <p className='normal-text' >{`invitacion para: ${guest.adults} Adulto(s) ${guest.childrens > 0 ? 'y ' + guest.childrens + ' niño(s)' : ''}`}</p>
+        <div style={{display: 'flex'}} >
+          <div style={{ border: '2px solid #99c2cb', margin: '14px', width: '50%'  }} ></div>
+          <div style={{ border: '2px solid #99c2cb', margin: '14px', width: '50%' }} ></div>
+        </div>
 
+
+        <h2 style={{ fontSize: '24px' }} >
+          Marzo 23 -
+          <img src="https://firebasestorage.googleapis.com/v0/b/babyshower-7ef8b.appspot.com/o/Captura%20de%20pantalla%202024-02-20%20164457.png?alt=media&token=4515be63-e7a1-43cf-966f-1e138b5d8901" alt="" />
+          - 14:00hrs
+        </h2>
+
+        <div style={{display: 'flex'}} >
+          <div style={{ border: '2px solid #99c2cb', margin: '14px', width: '50%'  }} ></div>
+          <div style={{ border: '2px solid #99c2cb', margin: '14px', width: '50%' }} ></div>
+        </div>
+
+        <p>Iglesia de San cayetano</p>
+        <p>recepción en:</p>
+        <p>Rio seco #9 col rio Lerma tic- ti 50456 colonia rio Lerma Atlacomulco “Salón el tejaban”</p>
+        <a target='_blank' href="https://maps.app.goo.gl/79s62ZwhYMxCW6Nr6">Ver Mapa</a>
+
+        <hr />
+
+        <p>Mis Padrinos:</p>
+        <p>Valeria Garduño Cárdenas</p>
+        <p>Carlos Alberto Hernández Aceituno
+</p>
+
+        <p className='normal-text' >{`invitacion para: ${guest.adults} Adulto(s) ${guest.childrens > 0 ? 'y ' + guest.childrens + ' niño(s)' : ''}`}</p>
+      </div>
     </div>
   )
 }
