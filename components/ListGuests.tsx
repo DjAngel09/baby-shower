@@ -58,7 +58,7 @@ export const ListGuests = () => {
                                 <td>{guest.childrens}</td>
                                 <td><a href={`/${guest.id}`} className='btn btn-outline-info' >Ver</a></td>
                                 <td>
-                                    <a target='_blank' className='btn btn-outline-primary' href={`https://api.whatsapp.com/send/?text=https://baby-shower-blush.vercel.app/${guest.id}`} >Compartir</a>
+                                    <a target='_blank' className='btn btn-outline-primary' href={`https://api.whatsapp.com/send/?text=https://invitaciones-web-blush.vercel.app/${guest.id}`} >Compartir</a>
                                 </td>
                                 <td>
                                     <button className='btn btn-outline-danger' type='button' onClick={() => deleteGuest(guest.id)} >Borrar</button>
