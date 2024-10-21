@@ -33,8 +33,8 @@ export const Intro = () => {
 
   return (
     <div className='text-center m-auto' style={{ maxWidth: '600px', padding: '54px 24px' }} >
-      <div style={{ backgroundColor: '#fff', borderRadius: '320px 320px 0 0', paddingTop: '74px', paddingBottom: '24px' }} >
-        <p style={{ color: '#99C2CB', fontSize: '20px' }} >¡Te invitamos a mi bautizo!</p>
+      <div style={{ backgroundColor: '#fff', borderRadius: '320px 320px 0 0', paddingTop: '74px', paddingBottom: '24px', paddingLeft: '24px', paddingRight: '24px' }} >
+        <p style={{ color: '#99C2CB', fontSize: '20px' }} >¡Te invitamos a mi cumpleños!</p>
         <p
           className='text-center'
           style={
@@ -47,10 +47,10 @@ export const Intro = () => {
         </p>
         <h2 className='mi' style={{ textAlign: 'center', fontSize: '36px' }} >Mi</h2>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-          <p className='pop' style={{ margin: '0 12px', fontSize: '52px', color:'#FFB14B', fontWeight: 'bold' }} >BAUTIZ</p>
-          <img src="https://firebasestorage.googleapis.com/v0/b/babyshower-7ef8b.appspot.com/o/Captura%20de%20pantalla%202024-02-20%20164457.png?alt=media&token=4515be63-e7a1-43cf-966f-1e138b5d8901" alt="" />
+          <p className='pop' style={{ margin: '0 12px', fontSize: '44px', color:'#FFB14B', fontWeight: 'bold' }} >CUMPLEAÑOS</p>
         </div>
-        <p className='pop' style={{margin: '0 12px', fontSize: '52px', color:'#FDA025', fontWeight: 'bold'}} >SKARLET</p>
+        <img style={{maxWidth: '54px'}} src="https://firebasestorage.googleapis.com/v0/b/babyshower-7ef8b.appspot.com/o/pngtree-cute-unicorn-rainbow-fantasy-png-image_11928024.png?alt=media&token=7e62b31d-1c65-49ac-828a-76400eed224f" alt="" />
+        <p className='pop' style={{margin: '0 12px', fontSize: '52px', color:'#FDA025', fontWeight: 'bold'}} >SOPHIA</p>
 
         <div style={{display: 'flex'}} >
           <div style={{ border: '2px solid #99c2cb', margin: '14px', width: '50%'  }} ></div>
@@ -59,9 +59,9 @@ export const Intro = () => {
 
 
         <h2 style={{ fontSize: '24px' }} >
-          Marzo 23 -
-          <img src="https://firebasestorage.googleapis.com/v0/b/babyshower-7ef8b.appspot.com/o/Captura%20de%20pantalla%202024-02-20%20164457.png?alt=media&token=4515be63-e7a1-43cf-966f-1e138b5d8901" alt="" />
-          - 14:00hrs
+          Noviembre 2 -
+          <img style={{maxWidth: '54px'}} src="https://firebasestorage.googleapis.com/v0/b/babyshower-7ef8b.appspot.com/o/pngtree-cute-unicorn-rainbow-fantasy-png-image_11928024.png?alt=media&token=7e62b31d-1c65-49ac-828a-76400eed224f" alt="" />
+          - 15:00hrs
         </h2>
 
         <div style={{display: 'flex'}} >
@@ -69,17 +69,12 @@ export const Intro = () => {
           <div style={{ border: '2px solid #99c2cb', margin: '14px', width: '50%' }} ></div>
         </div>
 
-        <p>Iglesia de San cayetano</p>
         <p>recepción en:</p>
-        <p>Rio seco #9 col rio Lerma tic- ti 50456 colonia rio Lerma Atlacomulco “Salón el tejaban”</p>
-        <a target='_blank' href="https://maps.app.goo.gl/79s62ZwhYMxCW6Nr6">Ver Mapa</a>
+        <p>Salón de Eventos Jardín Español</p>
+        <p>Av san juan san luis boro, 50475 Atlacomulco de Fabela, Méx.</p>
+        <a target='_blank' href="https://maps.app.goo.gl/Y7QPJLZ93b2qax8E8">Ver Mapa</a>
 
         <hr />
-
-        <p>Mis Padrinos:</p>
-        <p>Valeria Garduño Cárdenas</p>
-        <p>Carlos Alberto Hernández Aceituno
-</p>
 
         <p className='normal-text' >{`invitacion para: ${guest.adults} Adulto(s) ${guest.childrens > 0 ? 'y ' + guest.childrens + ' niño(s)' : ''}`}</p>
       </div>
