@@ -71,7 +71,7 @@ export const Intro = () => {
 
         <p>recepción en:</p>
         <p>Salón de Eventos Jardín Español</p>
-        <p>Av san juan san luis boro, 50475 Atlacomulco de Fabela, Méx.</p>
+        <p>Av san juan, san luis boro, 50475 Atlacomulco de Fabela, Méx.</p>
         <a target='_blank' href="https://maps.app.goo.gl/Y7QPJLZ93b2qax8E8">Ver Mapa</a>
 
         <hr />
